@@ -1,0 +1,25 @@
+{
+  "title": "getLifeYearsLost(data,riskFactor)",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# Implementation\n\n## Arguments\n\n* data: Data\n* refLifeTable: RefLifeTable\n* causeDeletedRef: CauseDeletedRef obj\n* riskFactor: string\n\n\n1. Create a life table with the data and refLifeTable argument\n2. Create a life table with the data argument and refLifeTable but all datum replaced with those in the causeDeletedRef for the riskFactor argument\n3. Subtract the ex values from the 2 life table rows whose age column matches with the age datum in the data argument\n4. Return the value"
+    },
+    {
+      "type": "markdown",
+      "data": "# Chaining Notes\n\n* Is unlocked when the addLifeTable method is used \n* Is only relevant for the MPoRT algorithm\n* Algorithm json now has causeDeletedReference object which is built using [this](https://docs.google.com/spreadsheets/d/1oDcl0Ed-KElO_a_DBWcontVnqyTCZlT63hSPd-gId88/edit#gid=1093053789)\n* Modify buildFromAssetsFolder to take into account cause-delete-reference.json file\n* Modify buildFromAlgorithmJson to add causeDeletedReference \n* Add .ts and .js file in pbl-calculator-engine-assets folder under mport folder which has the allowable values for riskFactor"
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    }
+  ]
+}
