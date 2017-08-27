@@ -74,6 +74,50 @@
     },
     {
       "type": "markdown",
+      "data": "# Multiplication Theorem\nThe probability of AB is equal to the product of the probability of A and the conditional probability of B given A, or"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$Pr\\{AB\\} = Pr\\{A\\} \\times Pr\\{B|A\\}$ or\n$Pr\\{AB\\} = Pr\\{B\\} \\times Pr\\{A|B\\}$\n\n$Pr\\{ABC\\} = Pr\\{A\\} \\times Pr\\{B|A\\} \\times Pr\\{C|AB\\}$\n\nIf the events are independent then it becomes,\n$Pr\\{AB\\} = Pr\\{A\\} \\times Pr\\{B\\}$\n$Pr\\{ABC\\} = Pr\\{A\\} \\times Pr\\{B\\} \\times Pr\\{C\\}$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Theorem of Pariwise Independence\nIf B is independent of A then A is independent of B and A and B are said to be independent events."
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "If, $Pr\\{B|A\\} = Pr\\{B\\}$ then $Pr\\{A|B\\} = Pr\\{A\\}$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Composite Event (A or B)\nBy a composite event A or B we mean either A or B or both. Thus the event A or B occurs if either A occurs, or B occurs or AB occurs"
+    },
+    {
+      "type": "markdown",
+      "data": "# Mutual Exclusiveness\nTwo events are said to be mutually exclusive if the occurrence of one implies the non-occurence of the other; in other words they cannot occur simultaneously in a single experiment. If A and B are mutually exclusive events, then n(AB) = 0 and Pr{AB} = 0"
+    },
+    {
+      "type": "markdown",
+      "data": "# Addition Theorem"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$Pr\\{A or B\\} = Pr\\{A\\} + Pr\\{B\\} - Pr\\{AB\\}$\n\nWhen events are mutually exclusive so that $Pr\\{AB=0\\}$ then the the addition theorem becomes,\n$Pr\\{A or B\\} = Pr\\{A\\} + Pr\\{B\\}$"
+    },
+    {
+      "type": "markdown",
+      "data": "# The distributive law\nWhen the computation of a probability requires both the addition and multiplication theorems, the rule of the application of the two theorems is similar to that in an arithmetic problem. For eg:"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$Pr\\{A(B or C)\\} = Pr\\{AB or AC\\}$\n$Pr\\{(A or B)(C or D)\\} = Pr\\{AC or AD or BC or BD\\}$"
+    },
+    {
+      "type": "markdown",
       "data": ""
     },
     {
