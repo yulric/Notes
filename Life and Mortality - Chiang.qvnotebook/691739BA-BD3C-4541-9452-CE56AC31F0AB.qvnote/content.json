@@ -1,0 +1,92 @@
+{
+  "title": "Chapter 1",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# Random Experimment\nA random experiment is an experiment that has a number of possible outcomes, but it is not certain which of the outcomes will occur before the experiment is performed\n\n# Components of Probability\n1. A random experiment\n2. Possible outcomes (of the random experiment)\n3. An event of interest\n\n# Probability\nThe probability of the occurrence of event A is defined as the ratio of the number of outcomes where event A occurs to the total number of outcomes"
+    },
+    {
+      "type": "markdown",
+      "data": "# Probability Equation\nSuppose that a random experiment may result in a number n of possible (and equally likely) outcomes, and in n(A) of these outcomes event A occurs. Then the probability of event A is defined as follows:"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$Pr\\{A\\} = \\frac{n(A)}{n}$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Values of Probability\nProbability can only take on values between zero and one i.e."
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$0 \\leq Pr\\{A\\} \\leq 1$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Sure and Impossible Event\nA sure event is an event that always occurs. If I is a sure event, then"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$ Pr\\{I\\} = 1$\n\nAn impossible event is an event that never occurs. If $\\phi$ is an impossible event, then\n\n$Pr\\{\\phi\\} = 0$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Complement of an Event"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "If $\\bar{A}$ is the complement of event $A$ then the complement $\\bar{A}$ only occues when event $A$ does not occur\n\nIn a random experiment with $n$ number of outcomes of which $n(A)$ os the number of outcomes in which in the event A occurs the following holds true,\n\n$n = n(A) + n(\\bar{A})$\n\n$Pr\\{A\\} + Pr\\{\\bar{A}\\} = 1$ \nor\n$Pr\\{\\bar{A}\\} = 1 - Pr\\{A\\}$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Composite event (A and B)\nGiven two events A and B we say a composite event A and B (or AB for simplicity) occurs when both event A and event B occur"
+    },
+    {
+      "type": "markdown",
+      "data": "# Sure and Impossible Event\nIf I is a sure event then,"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$Pr\\{AI\\} = Pr\\{A\\}$\nIf $\\phi$ is an impossible event then,\n$Pr\\{A\\phi\\} = 0$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Conditional Probability\nThe conditional probability of B given that A has occured is defined by:"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$Pr\\{B|A\\} = \\frac{Pr\\{AB\\}}{Pr\\{A\\}}$\nAlso,\n$Pr\\{B|A\\} = \\frac{n(AB)}{n(a)}$\nConditional probability $Pr\\{B|A\\}$ is different from the conditional probability $Pr\\{A|B\\}$"
+    },
+    {
+      "type": "markdown",
+      "data": "# Independence\nEvent B is said to be independent of event A if the conditional probability of B given A is equal to the (absolute) probability of B. In formula,"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "$Pr\\{B|A\\} = Pr\\{B\\}$\nThis means that the likelihood of the occurrence of B is not influenced by the occurence of A. If B is independent of A, B is also independent of $\\bar{A}$ or\n$Pr\\{B|A\\} = Pr\\{B\\} = Pr\\{B|\\bar{A}\\}$"
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    }
+  ]
+}
