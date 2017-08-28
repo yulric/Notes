@@ -1,0 +1,14 @@
+{
+  "title": "Chapter 2",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# Age Specific Death Rates"
+    },
+    {
+      "type": "latex",
+      "language": "latex",
+      "data": "For a specific age interval $(x_i, x_{i+1})$, the death rate, $M_i$ is defined as follows:\n\n$M_i = \\frac{Number \\ dying \\ in \\ (x_i, x_{i+1})}{Number \\ of \\ years \\ lived \\ in \\ (x_i, x_{i+1}) \\ by \\ those \\ alive \\ at \\ x_i}$\n\n$l_i$: Number of people living at age $x_i$\n$d_i$: Number of people dead between age $x_i$ and $x_{i+1}$\n$a_i$: Average fraction of the interval $x_i$ and $x_{i+1}$ that each of the $d_i$ people lived for\nThen the death rate $M_i$ is given as,\n\n$M_i = \\frac{d_i}{n_i(l_i - d_i)\\ +\\ a_in_id_i}$\n\nwhere,\n$n_i = x_{i+1}\\ -\\ x_{i}$ is the length of the interval $(x_i, x_{i+1})$\n$n_i(l_i\\ - d_i)$ is the number of years lived in $(x_i, x_{i+1})$ by the $(l_i\\ -\\ d_i)$ survivors and\n$a_in_id_i$ is the number of years lived by the $d_i$ people who die in the interval\n\nThe unit of death rate is number of deaths per person-years\n\nThe edtimate of probability of dying is given by,\n\n$q_i = \\frac{d_i}{l_i}$\n\nAnd the relationship between $q_i$ and $M_i$ is,\n\n$q_i = \\frac{n_iM_i}{1+(1-a_i)n_iM_i}$\n\nIn a current populationan age specific death rate is computed from the mortality and population data during that calendar year. Instead of $d_i$ we have $D_i$ which is the observed number of deaths occurring to people in the age group $(x_i, x_{i+1})$ during that calendar year. Let $N_i$ be the hypothetical number of people alibe at exact age $x_i$; among them $D_i$ deaths occur. The the death rate is,\n\n$M_i = \\frac{D_i}{n_i(N_i-D_i)+a_in_iD_i}$\n\nand an estimate of the probability $q_i$,\n\n$q_i = \\frac{D_i}{N_i}$\n\nSince $N_i$ is a hypothetical number the denominator is usually estimated by the midyear (that particular calendar year) population $P_i$ for age group $(x_i, x_{i+1})$ and the age specific age rate is given by,\n\n$M_i=\\frac{D_i}{P_i}$\n\nSince death rate is usually a small number it is ususally multiplies by a number such as 100 which is called the base. For example if $M_i$ = .806 the base is 1000 the death rate is .806 per 1000 person years"
+    }
+  ]
+}
